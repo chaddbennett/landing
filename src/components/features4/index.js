@@ -14,7 +14,7 @@ const Feature4 = props =>
                 <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></Zoom>
               </div>
               <div className="col-md-5">
-              <Rotate>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/500x500" alt="Generic placeholder image" /></Rotate>
+              <Rotate>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Rotate>
               </div>
             </div>
 
@@ -22,7 +22,7 @@ const Feature4 = props =>
 
             <div className="row featurette">
               <div className="col-md-5 pull-md-7">
-              <Fade left>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/500x500" alt="Generic placeholder image" /></Fade>
+              <Fade left>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Fade>
               </div>
 
               <div className="col-md-7 push-md-5">
@@ -40,7 +40,7 @@ const Feature4 = props =>
                 <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></Fade>
               </div>
               <div className="col-md-5">
-                <Fade right><img className=" mw-100 featurette-image img-fluid mx-auto" src="https://source.unsplash.com/random/500x500" alt="Generic placeholder image" /></Fade>
+                <Fade right><img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Fade>
               </div>
             </div>
             <hr className="featurette-divider" />
