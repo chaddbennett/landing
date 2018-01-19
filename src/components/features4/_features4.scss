@@ -1,0 +1,13 @@
+.features4 {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    // height: 500px;
+    padding: 90px 0;
+    border-bottom: 1px solid rgb(141, 142, 144);
+
+    &-title {
+        font-weight: bold;
+    }
+}

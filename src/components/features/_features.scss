@@ -1,5 +1,9 @@
 .features {
-    background-color: #f4f4f4;
+    //background: linear-gradient(to left,#85D8CE,#3a7bd5);
+    background-image: url('https://source.unsplash.com/random') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     padding: 90px 0;
     &-title {
         font-weight: bold;
