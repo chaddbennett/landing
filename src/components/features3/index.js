@@ -11,16 +11,11 @@ const image3 = "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627
 
 const Features3 = props =>
   (<section className="features3" id="features3">
-
-
     <Parallax bgImage={image2} strength={-100}>
       <div style={{height: 500}}>
         <div style={insideStyles}>Reverse direction</div>
       </div>
     </Parallax>
-
-
-
   </section>);
 
 export default Features3;

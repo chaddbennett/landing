@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './_features4.scss';
 import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 // import '../../../sass/_landing.scss'
