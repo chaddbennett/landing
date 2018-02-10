@@ -18,14 +18,14 @@ const NewsListing = props =>
         <div className="callout">
           <i className="fa fa-eye" aria-hidden="true"></i>
           <h2>SHARE VISUALLY</h2>
-          <p>Communicate your ideas more clearly. Cachemunk makes it easy to take the work you have already done and make it presentable with minimal effort. This allows you to share cohesive ideas without writing huge blocks of text.</p>
+          <p>Communicate your ideas more clearly. We make it easy to leverage work you have already done and make it presentable with minimal effort. This allows you to share cohesive ideas without writing huge blocks of text.</p>
         </div>
       </div>
       <div className="col-xs-12 col-sm-12 col-md-4  col-lg-4">
         <div className="callout">
           <i className="fa fa-lock" aria-hidden="true"></i>
           <h2>PRIVATE</h2>
-          <p>Privacy is a top priority for us and we don’t believe that knowledge sharing should come at the expense or inconvenience of "public first" systems. While we understand the value of making information accessible to everyone, we believe you should have that choice!</p>
+          <p>Privacy is a top priority for us and we don’t believe that knowledge sharing should come at the expense or inconvenience of "public first" systems. </p>
         </div>
       </div>
       </div>

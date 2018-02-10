@@ -10,11 +10,18 @@ const Feature4 = props =>
         <hr className="featurette-divider-1" />
        <div className="row featurette">
               <div className="col-md-7">
-            <Zoom>   <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
-                <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></Zoom>
+            <Zoom> <h6 className="featurette-heading">CLIP THE WEB<span className="text-muted"></span></h6>
+                <p className="lead">
+                  <ul>
+                    <li>Automatic screenshot and save links with a click of a button</li>
+                    <li>Capture multiple images from a single web page</li>
+                    <li>Take clippings or quotes of text from the pages</li>
+                  </ul>
+                </p>
+            </Zoom>
               </div>
               <div className="col-md-5">
-              <Rotate>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Rotate>
+              <Rotate>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1518217039/Plugin_s7g2y9.png" alt="Plugin" /></Rotate>
               </div>
             </div>
 
@@ -22,25 +29,25 @@ const Feature4 = props =>
 
             <div className="row featurette">
               <div className="col-md-5 pull-md-7">
-              <Fade left>  <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Fade>
+              <Fade left>
+                <img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1518217750/NewletterCachemunk_daqn5a.png" alt="Email Newsletter" />
+              </Fade>
               </div>
 
               <div className="col-md-7 push-md-5">
-            <Fade
-              right>   <h2 className="featurette-heading">Oh yeah, it's that good. <span className="text-muted">See for yourself.</span></h2>
-                <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></Fade>
+               <Fade right> <h6 className="featurette-heading"> SHARE VISUALLY <span className="text-muted"></span></h6>
+                 <p className="lead">Our newsletter feature makes it easy to package ideas and communicate them more clearly.</p></Fade>
               </div>
             </div>
-
-
             <hr className="featurette-divider" />
             <div className="row featurette">
              <div className="col-md-7">
-          <Fade left>  <h2 className="featurette-heading">And lastly, this one. <span className="text-muted">Checkmate.</span></h2>
-                <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p></Fade>
+            <Fade left>
+              <h6 className="featurette-heading">STAY ORGANIZED<span className="text-muted"></span></h6>
+                <p className="lead">We treat files, links, & notes equally allowing you to keep all your ideas in one place. </p></Fade>
               </div>
               <div className="col-md-5">
-                <Fade right><img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1516330572/library_xajsyy.jpg" alt="Generic placeholder image" /></Fade>
+                <Fade right><img className=" mw-100 featurette-image img-fluid mx-auto" src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1518219251/Cachemunk_Tile-View_rburrn.png" alt="Tile View" /></Fade>
               </div>
             </div>
             <hr className="featurette-divider" />

@@ -1,12 +1,22 @@
 .features4 {
-    background: black;
+    // background: black;
+    background:
+          linear-gradient(to left top, #1E252B 0%/*bottom-right color*/, #1E252B 50% /*middle color*/, #1F4355 100% /*top-left color*/),
+      linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))/*"faked" black background make sure to add last or it will appear before the transparent/colored layer*/;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 90px 0;
-    border-bottom: 1px solid rgb(141, 142, 144);
+    //border-bottom: 1px solid rgb(141, 142, 144);
 
     &-title {
         font-weight: bold;
     }
+}
+
+
+.featurette {
+  img {
+    margin: 30px;
+  }
+  color: #656E77;
 }

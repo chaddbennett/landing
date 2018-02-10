@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-react-boilerplate",
+  "name": "Cachemunk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Prototype Interactive",
+  "author": "Chadd Bennett",
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.0",
@@ -21,8 +21,10 @@
     "debug": "^3.1.0",
     "express": "^4.16.2",
     "helmet": "^3.8.2",
+    "react-modal-video": "^1.1.1",
     "react-parallax": "^1.6.0",
     "react-reveal": "^0.7.3",
+    "react-typist": "^2.0.4",
     "serve-static": "^1.13.1"
   },
   "devDependencies": {

@@ -9,7 +9,7 @@ const Footer = () =>
       <div className="row">
         <div className="col-12">
           <div className="footer-content">
-            <a href="https://github.com/PrototypeInteractive/gatsby-react-boilerplate" target="_blank" rel="noopener noreferrer">
+            <a href="" target="_blank" rel="noopener noreferrer">
             <p>
                 &copy; Cachemunk Inc.
             </p>

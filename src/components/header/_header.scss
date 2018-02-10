@@ -27,9 +27,18 @@
   align-items: center;
 }
 
-.nav-links{
+.nav-links {
+
   color: white;
   padding: 5px 15px;
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+
 }
 
 .topbar{

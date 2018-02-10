@@ -27,15 +27,15 @@ export default class Header extends React.Component {
         let classHide=this.state.isHide?"":"hide"
         return  <div className={"topbar "+classHide}>
               <div className="landing-logo">
-                Cachemunk
-                <img src="" id="cachemunk-logo" alt=""/>
+
+                <img src="https://res.cloudinary.com/cachemunk-inc/image/upload/v1518216091/CM_Logo_White_Blue_Aligned_Left_nm3qax.png" id="cachemunk-logo" alt=""/>
               </div>
               <div className='nav-links-container'>
                 <div className="nav-links">
-                  SignUp
+                  <a href="https://www.cachemunk.com/signup">Sign Up</a>
                 </div>
                 <div className="nav-links">
-                  Log In
+                <a href="https://www.cachemunk.com/login">Log In</a>
                 </div>
               </div>
           </div>
