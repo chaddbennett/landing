@@ -26,9 +26,6 @@ export const pageQuery = graphql`
           features {
             title
           }
-          Cta {
-            title
-          }
         }
       }
     }

@@ -2,9 +2,6 @@
 gatsby develop --host localhost --port 8000
 
 
-
-
-
 # Gatsby React Boilerplate
 ### Requirements
 
