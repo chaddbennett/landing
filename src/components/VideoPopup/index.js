@@ -21,7 +21,7 @@ export default class VideoPopup extends React.Component {
     return (
       <div>
         {/* <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='b0yQcysKTFg' onClose={() => this.setState({isOpen: false})} /> */}
-        <a href="https://www.cachemunk.com/signup">
+        <a href="https://app.cachemunk.com/signup">
           <button className="btn-global" onClick={this.openModal}>Get Started</button>
         </a>
       </div>

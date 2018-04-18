@@ -32,10 +32,10 @@ export default class Header extends React.Component {
               </div>
               <div className='nav-links-container'>
                 <div className="nav-links">
-                  <a href="https://www.cachemunk.com/signup">Sign Up</a>
+                  <a href="https://app.cachemunk.com/signup">Sign Up</a>
                 </div>
                 <div className="nav-links">
-                <a href="https://www.cachemunk.com/login">Log In</a>
+                <a href="https://app.cachemunk.com/login">Log In</a>
                 </div>
               </div>
           </div>
